@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ab1354aa-f4f1-4976-a458-095ecc623e52": {
+        "id": "ab1354aa-f4f1-4976-a458-095ecc623e52",
+        "parent": null,
+        "name": "27point6",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a571ee59-db8f-45e5-8348-edbbb4417880"
+        ],
+        "isRemovable": false,
+        "filePath": "27point6"
+      },
+      "a571ee59-db8f-45e5-8348-edbbb4417880": {
+        "id": "a571ee59-db8f-45e5-8348-edbbb4417880",
+        "parent": "ab1354aa-f4f1-4976-a458-095ecc623e52",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "27point6/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "ab1354aa-f4f1-4976-a458-095ecc623e52",
+    "openFiles": [
+      "a571ee59-db8f-45e5-8348-edbbb4417880"
+    ],
+    "currentFileId": "a571ee59-db8f-45e5-8348-edbbb4417880",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "27point6",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1570007714781
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "27point6",
+      "url": "https://github.com/Kumudikatest/27point6"
+    }
+  }
+}
