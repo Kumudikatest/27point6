@@ -30,7 +30,16 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [],
+        "testCases": {
+          "b69089ef-7e37-42ed-b3c6-4f2aae9a14f5": {
+            "id": "b69089ef-7e37-42ed-b3c6-4f2aae9a14f5",
+            "name": "Test event",
+            "functionId": "a571ee59-db8f-45e5-8348-edbbb4417880",
+            "event": "{\r\n    \"version\": \"1.0\",\r\n    \"session\": {\r\n        \"new\": false,\r\n        \"sessionId\": \"amzn1.echo-api.session.123456789012\",\r\n        \"application\": {\r\n            \"applicationId\": \"amzn1.ask.skill.987654321\"\r\n        },\r\n        \"attributes\": {\r\n            \"score\": 0,\r\n            \"currentQuestionIndex\": 0,\r\n            \"speechOutput\": \"Question 1. What was Rudolph's father's name? 1. Blixen. 2. Comet. 3. Donner. 4. Dasher. \",\r\n            \"correctAnswerText\": \"Donner\",\r\n            \"repromptText\": \"Question 1. What was Rudolph's father's name? 1. Blixen. 2. Comet. 3. Donner. 4. Dasher. \",\r\n            \"questions\": [\r\n                16,\r\n                20,\r\n                29,\r\n                2,\r\n                19\r\n            ],\r\n            \"STATE\": \"_TRIVIAMODE\",\r\n            \"correctAnswerIndex\": 3\r\n        },\r\n        \"user\": {\r\n            \"userId\": \"amzn1.ask.account.testUser\"\r\n        }\r\n    },\r\n    \"context\": {\r\n        \"AudioPlayer\": {\r\n            \"playerActivity\": \"IDLE\"\r\n        },\r\n        \"System\": {\r\n            \"application\": {\r\n                \"applicationId\": \"amzn1.ask.skill.987654321\"\r\n            },\r\n            \"user\": {\r\n                \"userId\": \"amzn1.ask.account.testUser\"\r\n            },\r\n            \"device\": {\r\n                \"supportedInterfaces\": {\r\n                    \"AudioPlayer\": {}\r\n                }\r\n            }\r\n        }\r\n    },\r\n    \"request\": {\r\n        \"type\": \"IntentRequest\",\r\n        \"requestId\": \"amzn1.echo-api.request.1234\",\r\n        \"timestamp\": \"2016-10-27T21:06:28Z\",\r\n        \"locale\": \"en-US\",\r\n        \"intent\": {\r\n            \"name\": \"AnswerIntent\",\r\n            \"slots\": {\r\n                \"Item\": {\r\n                    \"name\": \"Answer\",\r\n                    \"value\": \"1\"\r\n                }\r\n            }\r\n        }\r\n    }\r\n}",
+            "eventTemplate": "alexa-skills-kit-intent-answer"
+          }
+        }
       }
     },
     "rootNode": "ab1354aa-f4f1-4976-a458-095ecc623e52",
@@ -64,7 +73,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1570007714781
+    "lastSave": 1570007935217
   },
   "VCS_STATE": {
     "provider": "GitHub",
